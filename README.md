@@ -98,7 +98,7 @@ Download from [Kaggle](https://www.kaggle.com/c/home-credit-default-risk/data).
 ### Aggregations (per client, per auxiliary table)
 ```python
 # For each table joined on SK_ID_CURR:
-agg_funcs = ["mean", "sum", "min", "max", "std"]     # numerical
+ agg_funcs = ["mean", "sum", "min", "max"]    # numerical
 cat_funcs  = ["count", "nunique"]                     # categorical
 ```
 
